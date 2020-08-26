@@ -1,0 +1,72 @@
+html {
+font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #3c6d77;
+}
+#header {
+    text-align: center;
+    color: white;
+}
+h1, h2 {
+    text-align: center;
+}
+.subheader {
+    text-align: center;
+    color: white;
+}
+#main {
+    display: flex;
+}
+#input {
+    position: absolute;
+    width: 50%;
+    left: 0;
+}
+#output {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    
+}
+#preview {
+    background-color: rgb(240, 238, 238);
+    min-height: 450px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+#editor {
+padding-top: 5px;
+padding-left: 5px;
+width: 98.9%;
+min-height: 448px;
+outline: none;
+resize: vertical;
+font-size: 16px;
+padding-right: 0px;
+padding-bottom: 0px;
+}
+img {
+    height: 200px;
+}
+code {
+    background-color: black;
+    color: white;
+}
+blockquote {
+    border-left: 3px solid gray;
+    padding-left: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+    padding: 3px;
+}
+td {
+    border: 1px solid black;
+    padding: 3px;
+}

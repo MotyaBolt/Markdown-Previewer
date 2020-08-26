@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Markdown Previewer</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js" integrity="sha512-KCyhJjC9VsBYne93226gCA0Lb+VlrngllQqeCmX+HxBBHTC4HX2FYgEc6jT0oXYrLgvfglK49ktTTc0KVC1+gQ==" crossorigin="anonymous"></script>
+    </head>
+    <body onload="setDefault()">
+        <script src="script.js"></script>
+        <div id="container">
+            <h1 id="header">Markdown Previewer</h1>
+            <div id="main">
+                <div id="input">
+                    <h2 class="subheader">
+                        Editor
+                    </h2>
+                    <textarea oninput="getText()" id="editor"></textarea>
+                </div>
+                <div id="output">
+                    <h2 class="subheader">
+                        Previewer
+                    </h2>
+                    <div id="preview"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
